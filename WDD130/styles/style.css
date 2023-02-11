@@ -1,15 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&family=Lato&display=swap');
+
 #content{
     max-width: 1600px;
     margin: 0 auto;
+    
+    
 }
 
 nav a{
     text-align: center;
     text-decoration: none;
+    padding: 35px;
 }
 
 #hero-msg h1, #hero-msg h4{
     text-align: center;
+    font-family: "EB Garamond";
+}
+
+.rivers-card h2, .camping-card h2, .rapids-card h2, .msg h2{
+    font-family: "EB Garamond";
 }
 
 .button-box{
@@ -19,13 +29,22 @@ nav a{
 main section{
     text-align: center;
 }
+main section img{
+    box-sizing: border-box;
+}
 
 #background{
     height: 725px;
 }
 
 body{
-    background-color: #fffbfe
+    background-color: #fffbfe;
+    font-family: Lato, serif;
+    font-size: 22px;
+    margin: 0;
+}
+h2{
+    margin: 0;
 }
 
 header{
@@ -39,7 +58,13 @@ nav a:hover{
 .book, .join{
     background-color: #D0CFCF;
     text-decoration: none;
-    margin: 0, auto
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.book{
+    margin-left: 500px;
 }
 
 .book:hover .join:hover{
@@ -52,10 +77,14 @@ nav a:hover{
 
 .msg{
     background-attachment: #381D2A;
+    line-height: 1.5em;
+    padding: 35 px;
 }
 
 footer{
     background-color: #396e94;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer p{
     color: white;
@@ -73,3 +102,28 @@ footer a{
 footer p a:hover{
     text-decoration: underline;
 }
+.home-title{
+    font-size: 2em;
+    margin-top: 10px;
+}
+.msg p{
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+#logo_link{
+    padding-top: 5px;
+
+}
+.icon{
+    padding-top: 10px;
+}
+footer .social img{
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+.card-img{
+    border: 10px solid black;
+}
+
