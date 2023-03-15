@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Julee&family=Lato&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+#content{
+    background-image: url("../logo/snake_main_background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .95;
+    height: 490px;
+}
+header ul{
+    width: 100%;
+    margin-top: 50px;
+}
+header ul li {
+    display: inline;
+
+}
+.links a{
+    font-size: 18px;
+    margin-left: 82px;
+    text-align: center;
+    color: white;
+}
+.container{
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+    margin-right: auto;
+    margin-left: auto;
+}
+h1{
+    font-family: Julee, cursive;
+    font-size: 96px;
+}
+h2{
+    font-family: Julee, cursive;
+    margin-top: -50px;
+    font-size: 44px;
+}
+.button{
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    background-color: rgb(20, 186, 128);
+    padding: 2px;
+    margin: 0 auto;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+
+}
+.button:hover{
+    cursor: pointer;
+    color: black;
+    background:rgb(13, 209, 140);
+    box-shadow: 0 0 5px rgb(13, 209, 140), 
+                0 0 20px rgb(13, 209, 140),
+                0 0 60px rgb(13, 209, 140),
+                0 0 150px rgb(13, 209, 140);
+}
+
