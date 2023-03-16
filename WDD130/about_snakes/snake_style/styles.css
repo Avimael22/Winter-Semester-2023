@@ -64,5 +64,95 @@ h2{
                 0 0 20px rgb(13, 209, 140),
                 0 0 60px rgb(13, 209, 140),
                 0 0 150px rgb(13, 209, 140);
+}#snake_content{
+    width: 100%;
+    margin: 0;
+    align-items: center;
+    text-align: center;
 }
+#home_header{
+    display: grid;
+    grid-template-columns: 150px auto;
+    width: 100%;
+    height: 100px;
+    background-color: #F8FFE5;
+    padding: 6px;
+}
+.logo{
+    grid-column: 1/2;
+    width: 100%;
+    height: 90px;
+    border-radius: 10px;
+}
+#home_nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+#home_nav a{
+    text-align: center;
+    padding: 35px;
+    text-decoration: none;
+    align-items: center;
+    font-size: 18px;
+    border-radius: 35px;
+}
+#home_nav a:hover{
+    background-color: #218380;
+    color: white;
+}
+#main-heading{
+    width: max-content;
+    height: max-content;
+    margin: 0 auto;
+}
+#snake_content{
+    margin-top: -62px;
+    background-color: black;
+    color: white;
+}
+.partition{
+    background-image: url(../logo/home_pic2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: max-content;
+    margin: 50px;
+}
+.glass{
+    background: linear-gradient(135deg (255, 255, 255, 0.1));
+    backdrop-filter: blur(21px);
+    -webkit-backdrop-filter: blur(21px);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.36);
+    border: 1px solid rgba(255, 255, 255, 0.16);
+    border-radius: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.venomous p, .non-venomous p, .constrictors p{
+    font-size: 20px;
+    color: white;
+}
+.non-venomous{
+    background-image: url("../logo/non_venomous.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: max-content;
+    margin: 100px 50px;
 
+}
+.constrictors{
+    background-image: url("../logo/constrictor_snake.jpg");
+    margin-bottom: 50px;
+}
+footer{
+    background-color: #F8FFE5;
+    padding: 25px 50px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px;
+}
